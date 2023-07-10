@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav Bar*/
+
+.nav-bar{
+    /*display: block;*/
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+
+    /*background-color: #2d2d2d;*/
+    background-color: #161616;
+    border: 2px solid black;
+}
+
+body > div.nav-bar > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    /*color: #fff;*/
+    color: #7e7e7e;
+    font-style: italic;
+    border-left: 2px solid #7e7e7e;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+body > div.nav-bar > a:hover{
+    transition: 400ms;
+    /*color: #505050;*/
+    color: #fff;
+}
+
+/*Main Section*/
+
+.container{
+    /*width: 85%;*/
+    height: 500px;
+    /*margin: 0 auto;*/
+
+
+    position: relative;
+
+    margin: 50px auto;
+    width: 820px;
+    /*background-color: lightblue;*/
+}
+
+.box1{
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-games{
+    padding-left: 2em;
+}
+
+.text-box{
+    width: 50%;
+
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: justify;
+    height: 550px;
+}
+
+.img{
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}

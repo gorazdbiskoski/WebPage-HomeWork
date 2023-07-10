@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav Bar*/
+
+.nav-bar{
+    /*display: block;*/
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+
+    /*background-color: #2d2d2d;*/
+    background-color: #161616;
+    border: 2px solid black;
+}
+
+body > div.nav-bar > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    /*color: #fff;*/
+    color: #7e7e7e;
+    font-style: italic;
+    border-left: 2px solid #7e7e7e;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+body > div.nav-bar > a:hover{
+    transition: 400ms;
+    /*color: #505050;*/
+    color: #fff;
+}
+
+/*Main Section*/
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.container label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"],
+.container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+    transition: 500ms;
+}
+
+body > div.container > h2{
+    margin: 10px 0;
+}
+
+#name,
+#email,
+#message{
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+footer {
+    background-color: #161616;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+}

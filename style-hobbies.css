@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background: #013d2b;*/
+}
+
+/*Nav Bar*/
+
+.nav-bar{
+    /*top: 0;
+    left: 0;
+    position: fixed;*/
+    /*display: block;*/
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+
+    /*background-color: #2d2d2d;*/
+    background-color: #161616;
+    border: 2px solid black;
+}
+
+body > div.nav-bar > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    /*color: #fff;*/
+    color: #7e7e7e;
+    font-style: italic;
+    border-left: 2px solid #7e7e7e;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+body > div.nav-bar > a:hover{
+    transition: 400ms;
+    /*color: #505050;*/
+    color: #fff;
+}
+
+/*Main Section*/
+
+.container{
+    position: relative;
+
+    margin: 50px auto;
+    width: 820px;
+    height: 550px;
+    /*margin-bottom: 50px;*/
+    /*background: pink;*/
+}
+
+/*Guitar Section*/
+
+.guitar-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.g-text{
+    text-align: justify;
+    margin-top: 60px;
+    line-height: 1.4em;
+}
+
+body > div.container > div > div:nth-child(2) > img{
+    margin-top: -30px;
+}
+
+/*Video Games Section*/
+
+.game-box
+{
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.vg-text{
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 1.3em;
+}
+
+/**/
+
+body > div.container > div > div.guitar-text > div:nth-child(1) > h4
+{
+    /*display: inline-block;*/
+
+    position: absolute;
+    top: 0;
+    left: -90px;
+
+    font-size: 18px;
+    padding: 10px 20px;
+    background: gray;
+    border-radius: 10px;
+}
+
+body > div.container > div.game-box > div.game-text > div:nth-child(1) > h4{
+
+    /*display: inline-block;*/
+
+    position: absolute;
+    top: 15px;
+    right: -90px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: gray;
+    border-radius: 10px;
+}
+/**/
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    color: orangered;
+    transition: 300ms;
+}
